@@ -1,7 +1,6 @@
 .navigation-menu {
     display: flex;
     align-items: center;
-    margin-left: 93px;
 }
 
 .navigation-menu__item {
@@ -47,12 +46,12 @@
     transform: scaleX(1);
 }
 
-.current-page {
+.navigation-menu__item--current {
     position: relative;
     color: $accentColor;
 }
 
-.current-page::after {
+.navigation-menu__item--current::after {
     position: absolute;
     bottom: 0;
     display: block;
