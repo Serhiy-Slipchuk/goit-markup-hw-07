@@ -1,0 +1,23 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $accentColor;
+    border-color: $accentColor;
+    box-shadow: $buttonShadow;
+    border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $liteTextColor;
+    cursor: pointer;
+}
