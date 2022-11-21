@@ -434,7 +434,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 50px;
+  outline: 2px solid orange;
+}
+
+.section-work__item {
+  outline: 2px solid green;
+  margin-right: 10px;
 }
 
 .section-team {
