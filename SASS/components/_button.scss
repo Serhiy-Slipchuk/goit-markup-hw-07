@@ -1,11 +1,9 @@
 .button {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 216px;
     height: 50px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: $accentColor;
     border-color: $accentColor;
     box-shadow: $buttonShadow;
@@ -16,7 +14,6 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
-    text-align: center;
     letter-spacing: 0.06em;
     color: $liteTextColor;
     cursor: pointer;

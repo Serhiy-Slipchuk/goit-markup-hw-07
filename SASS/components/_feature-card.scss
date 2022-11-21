@@ -1,0 +1,36 @@
+.feature-card {
+    max-width: 270px;
+
+&:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+
+.feature-card__title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: inherit;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $secondaryTextColor;
+}
+
+.feature-card__text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $primaryTextColor;
+}
+
+.feature-card__icon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondaryBackgroundColor;
+    border-radius: 4px;
+}
