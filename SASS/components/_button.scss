@@ -28,6 +28,21 @@
 &--footer:focus {
     background-color: #188CE8;
 }
+
+&--modal {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color $mainDuration $mainTimingFunction;
+}
+
+&--modal:hover,
+&--modal:focus {
+    background-color: #188CE8;
+}
+
 }
 
 .button__icon {

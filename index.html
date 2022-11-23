@@ -484,44 +484,44 @@
       </button>
       <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
       <form action="#" name="form-callback">
-        <div class="form-field first-form-field">
-          <input type="text" name="user-name" id="user-name" class="form-input" required>
-          <label for="user-name" class="text-label">Ім'я</label>
-          <svg class="form-icon" width="18" height="18">
+        <div class="form-callback__field">
+          <input type="text" name="user-name" id="user-name" class="form-callback__input" required>
+          <label for="user-name" class="form-callback__label">Ім'я</label>
+          <svg class="form-callback__icon" width="18" height="18">
             <use href="./images/icons.svg#icon-person"></use>
           </svg>
         </div>
-        <div class="form-field">
-          <input type="tel" name="user-phone" id="user-phone" class="form-input" required>
-          <label for="user-phone" class="text-label">Телефон</label>
-          <svg class="form-icon" width="18" height="18">
+        <div class="form-callback__field">
+          <input type="tel" name="user-phone" id="user-phone" class="form-callback__input" required>
+          <label for="user-phone" class="form-callback__label">Телефон</label>
+          <svg class="form-callback__icon" width="18" height="18">
             <use href="./images/icons.svg#icon-phone"></use>
           </svg>
         </div>
-        <div class="form-field">
-          <input type="email" name="user-mail" id="user-mail" class="form-input">
-          <label for="user-mail" class="text-label">Пошта</label>
-          <svg class="form-icon" width="18" height="18">
+        <div class="form-callback__field">
+          <input type="email" name="user-mail" id="user-mail" class="form-callback__input">
+          <label for="user-mail" class="form-callback__label">Пошта</label>
+          <svg class="form-callback__icon" width="18" height="18">
             <use href="./images/icons.svg#icon-email"></use>
           </svg>
         </div>
-        <div class="form-field">
-          <textarea name="user-comment" id="user-comment" placeholder="Введіть текст" class="form-textarea"></textarea>
-          <label for="user-comment" class="text-label">Коментар</label>
+        <div class="form-callback__field">
+          <textarea name="user-comment" id="user-comment" placeholder="Введіть текст" class="form-callback__textarea"></textarea>
+          <label for="user-comment" class="form-callback__label">Коментар</label>
         </div>
-        <div class="checkbox-field">
-          <label class="agreement-label">
-            <input type="checkbox" name="agreement-check" class="agreement-checkbox visually-hidden">
-            <span class="checkbox-custom">
-              <svg class="checkbox-icon" width="16" height="15">
+        <div class="form-callback__checkbox-field">
+          <label class="form-callback__checkbox-label">
+            <input type="checkbox" name="agreement-check" class="form-callback__checkbox visually-hidden">
+            <span class="form-callback__checkbox-custom">
+              <svg class="form-callback__checkbox-icon" width="16" height="15">
                 <use href="./images/icons.svg#icon-checkbox"></use>
               </svg>
             </span>
             <span>Погоджуюся з розсилкою та приймаю</span>
-            <a href="#" class="agreement-link">  Умови договору</a>
+            <a href="#" class="form-callback__link">  Умови договору</a>
           </label>
         </div>
-        <button type="submit" class="form-btn">Відправити</button>
+        <button type="submit" class="button button--modal">Відправити</button>
       </form>
     </div>
   </div>
