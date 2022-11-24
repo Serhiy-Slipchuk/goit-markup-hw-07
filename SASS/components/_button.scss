@@ -43,6 +43,39 @@
     background-color: #188CE8;
 }
 
+&--filter {
+    // display: block;
+    // padding-top: 6px;
+    // padding-bottom: 6px;
+    // padding-left: 22px;
+    // padding-right: 22px;
+   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: $secondaryTextColor;
+    background-color: $secondaryBackgroundColor;
+    border-width: 0;
+    
+    transition: color $mainDuration $mainTimingFunction, background-color $mainDuration $mainTimingFunction, box-shadow $mainDuration $mainTimingFunction;
+}
+
+&--filter:hover,
+&--filter:focus {
+    color: $liteTextColor;
+    background-color: $accentColor;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+// .portfolio-filter-btn.first-filter-btn {
+//     padding-left: 25px;
+//     padding-right: 25px;
+// }
+
+
 }
 
 .button__icon {
