@@ -3,13 +3,31 @@
     align-items: center;
 }
 
+
 .navigation-menu__item {
     color: $secondaryTextColor;
-}
 
-.navigation-menu__item:not(:first-child) {
+&:not(:first-child) {
     margin-left: 50px;
 }
+
+&--current {
+    position: relative;
+    color: $accentColor;
+}
+
+&--current::after {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accentColor;
+}
+}
+
 
 .navigation-menu__link {
     position: relative;
@@ -21,9 +39,9 @@
     letter-spacing: 0.02em;
     color: inherit;
     transition: color $mainDuration $mainTimingFunction;
-}
 
-.navigation-menu__link::after {
+
+&::after {
     position: absolute;
     bottom: 0;
     display: block;
@@ -36,28 +54,11 @@
     transition: transform $mainDuration $mainTimingFunction;
 }
 
-.navigation-menu__link:hover,
-.navigation-menu__link:focus {
+&:hover, &:focus {
     color: $accentColor;
 }
 
-.navigation-menu__link:hover::after {
-
+&:hover::after {
     transform: scaleX(1);
 }
-
-.navigation-menu__item--current {
-    position: relative;
-    color: $accentColor;
-}
-
-.navigation-menu__item--current::after {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    content: '';
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: $accentColor;
 }

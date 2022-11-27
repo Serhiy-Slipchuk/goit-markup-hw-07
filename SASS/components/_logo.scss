@@ -5,12 +5,13 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: $accentColor;
-}
 
-.logo__part {
+
+&__part {
     color: $logoColor;
 }
 
-.logo__part--light {
+&__part--light {
     color: $liteTextColor;
+}
 }

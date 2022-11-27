@@ -17,11 +17,10 @@
     letter-spacing: 0.02em;
     color: $primaryTextColor;
     transition: color $mainDuration $mainTimingFunction;
-}
 
-.communication-menu__link:hover,
-.communication-menu__link:focus {
+&:hover, &:focus {
     color: $accentColor;
+}
 }
 
 .communication-menu__icon {
